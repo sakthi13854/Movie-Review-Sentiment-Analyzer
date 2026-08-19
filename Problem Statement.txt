@@ -1,0 +1,57 @@
+Problem Statement
+
+Movie reviews contain valuable information about audience opinions, but manually analyzing a large number of reviews to determine whether they are positive or negative is time-consuming and subjective. The objective of this project is to develop a sentiment analysis system that automatically classifies movie reviews as positive or negative using Natural Language Processing (NLP) and machine learning techniques.
+
+Need for Data
+
+Data is required because the machine learning model needs examples of movie reviews along with their sentiment labels to learn the relationship between the words used in a review and the corresponding sentiment.
+
+The dataset should ideally contain:
+
+Review text — the actual movie review written by a user.
+Sentiment label — positive or negative.
+Sufficient number of reviews — to train and evaluate the model effectively.
+Balanced classes — approximately similar numbers of positive and negative reviews to avoid model bias.
+
+Project work Flow
+1. Collect Dataset
+       ↓
+2. Understand Dataset
+       ↓
+3. Clean Reviews
+       ↓
+4. Perform EDA
+       ↓
+5. Split Train/Test
+       ↓
+6. TF-IDF Feature Extraction
+       ↓
+7. Train ML Models
+       ↓
+8. Compare Models
+       ↓
+9. Evaluate Best Model
+       ↓
+10. Save Model + Vectorizer
+       ↓
+11. Build Prediction Interface
+       ↓
+12. Deploy Application
+
+
+Data Collection
+	Collect a dataset containing movie reviews and their sentiment labels (Positive/Negative).
+Data Preprocessing
+C	lean the review text by removing HTML tags, special characters, unnecessary spaces, and converting text to lowercase. Tokenization and lemmatization can also be performed.
+Exploratory Data Analysis
+	Analyze the dataset to understand the distribution of positive and negative reviews, review lengths, and frequently used words.
+Feature Extraction
+	Convert the cleaned text into numerical features using techniques such as TF-IDF or Bag of Words.
+Model Training
+	Split the data into training and testing sets and train classification algorithms such as Logistic Regression, Naive Bayes, or SVM.
+Model Evaluation
+	Evaluate the model using accuracy, precision, recall, F1-score, and confusion matrix to determine its performance.
+Sentiment Prediction
+	Pass a new movie review through the same preprocessing and feature-extraction steps, then use the trained model to predict whether the review is Positive or Negative.
+Deployment
+	Deploy the trained model using a simple interface such as Streamlit, allowing users to enter a review and receive the predicted sentiment.
