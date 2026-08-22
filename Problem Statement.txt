@@ -55,3 +55,21 @@ Sentiment Prediction
 	Pass a new movie review through the same preprocessing and feature-extraction steps, then use the trained model to predict whether the review is Positive or Negative.
 Deployment
 	Deploy the trained model using a simple interface such as Streamlit, allowing users to enter a review and receive the predicted sentiment.
+
+
+Objectives of the Project
+
+1. To collect and prepare movie review data** containing review text and sentiment labels.
+
+2. To preprocess textual data** by removing noise, handling unnecessary characters, and preparing reviews for analysis.
+
+3. To perform Exploratory Data Analysis (EDA)** to understand sentiment distribution, review length, and frequently occurring words.
+
+4. To convert text into numerical features** using techniques such as **TF-IDF**.
+
+5. To develop a machine learning classification model** that can classify movie reviews as **Positive or Negative**.
+
+6. To evaluate the model's performance** using metrics such as Accuracy, Precision, Recall, and F1-score.
+
+7. To build a simple prediction system** where users can enter a movie review and receive its predicted sentiment.
+
